@@ -1,0 +1,14 @@
+/* Tema default — sama dengan style.css utama */
+:root {
+  --bg: #0f1117;
+  --bg-2: #151923;
+  --bg-3: #1c2130;
+  --border: #262b3a;
+  --text: #e6e8ee;
+  --muted: #8a93a6;
+  --accent: #7c5cff;
+  --accent-2: #5b8cff;
+  --green: #22c55e;
+  --yellow: #eab308;
+  --red: #ef4444;
+}

@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Gurita Panel — Account</title>
+<link rel="stylesheet" href="/css/style.css" />
+<link rel="stylesheet" href="/api/themes/active.css" />
+</head>
+<body>
+<main class="main">
+  <div class="topbar"><h1>Account Settings</h1></div>
+
+  <div class="card">
+    <h2 style="margin-top:0;">Profil</h2>
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px; max-width:720px;">
+      <div>
+        <label>User ID</label>
+        <input id="userId" readonly />
+        <p class="muted" style="font-size:12px; margin-top:2px;">
+          ID permanen. Berikan ke admin jika butuh bantuan.
+        </p>
+      </div>
+      <div>
+        <label>Role</label>
+        <input id="userRole" readonly />
+      </div>
+    </div>
+
+    <div style="height:16px"></div>
+
+    <label>Username</label>
+    <input id="username" maxlength="32" />
+    <label>Email</label>
+    <input id="email" type="email" maxlength="254" />
+
+    <div class="row" style="margin-top:14px;">
+      <button id="saveProfile" class="primary">Simpan Perubahan</button>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2 style="margin-top:0;">Ubah Password</h2>
+    <p class="muted" style="margin-top:0;">
+      Setelah ganti password, semua sesi di perangkat lain akan diputus.
+    </p>
+    <label>Password Saat Ini</label>
+    <input id="currentPassword" type="password" autocomplete="current-password" />
+    <label>Password Baru</label>
+    <input id="newPassword" type="password" autocomplete="new-password" />
+    <label>Konfirmasi Password Baru</label>
+    <input id="confirmPassword" type="password" autocomplete="new-password" />
+    <div class="row" style="margin-top:14px;">
+      <button id="savePassword" class="primary">Ubah Password</button>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2 style="margin-top:0;">Info Akun</h2>
+    <table style="max-width:600px;">
+      <tbody>
+        <tr><td class="muted">Status</td><td id="infoStatus">—</td></tr>
+        <tr><td class="muted">Dibuat</td><td id="infoCreated">—</td></tr>
+        <tr><td class="muted">Diperbarui</td><td id="infoUpdated">—</td></tr>
+        <tr><td class="muted">Max Servers</td><td id="infoMaxServers">—</td></tr>
+        <tr><td class="muted">Max RAM</td><td id="infoMaxRam">—</td></tr>
+        <tr><td class="muted">Max CPU</td><td id="infoMaxCpu">—</td></tr>
+        <tr><td class="muted">Max Disk</td><td id="infoMaxDisk">—</td></tr>
+      </tbody>
+    </table>
+  </div>
+</main>
+<script src="/js/media.js" defer></script>
+<script type="module" src="/js/account.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Login</title>
+<link rel="stylesheet" href="/css/style.css" />
+<link rel="stylesheet" href="/api/themes/active.css" />
+</head>
+<body>
+  <div style="max-width:380px; margin: 8vh auto; padding: 0 16px;">
+    <div class="card">
+      <div id="brandRow" style="display:flex; align-items:center; gap:12px; margin-bottom:12px;">
+        <div id="brandLogo" style="
+          width:44px; height:44px; border-radius:10px;
+          background:var(--bg-3); display:flex; align-items:center;
+          justify-content:center; overflow:hidden; font-size:24px;
+        ">🐙</div>
+        <h1 id="brandName" style="margin:0; font-size:20px;">Gurita Panel</h1>
+      </div>
+      <p class="muted" style="margin-top:0;">Sign in to continue.</p>
+      <form id="loginForm" autocomplete="on">
+        <label for="username">Username</label>
+        <input id="username" name="username" autocomplete="username" required />
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password" autocomplete="current-password" required />
+        <div style="height:12px"></div>
+        <button class="primary" style="width:100%" type="submit">Sign in</button>
+      </form>
+    </div>
+  </div>
+  <script src="/js/media.js" defer></script>
+  <script type="module" src="/js/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+{
+  "name": "neon",
+  "displayName": "Neon Cyberpunk",
+  "version": "1.0.0",
+  "author": "Community",
+  "description": "Tema neon dengan aksen pink dan cyan.",
+  "entry": "theme.css"
+}

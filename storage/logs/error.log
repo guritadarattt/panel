@@ -1,0 +1,26 @@
+{"ts":"2026-09-22T11:53:48.578Z","level":"error","msg":"Not found","meta":{"code":"not_found","status":404,"path":"/favicon.ico","method":"GET"}}
+{"ts":"2026-09-22T11:59:13.041Z","level":"error","msg":"Not found","meta":{"code":"not_found","status":404,"path":"/.well-known/appspecific/com.chrome.devtools.json","method":"GET"}}
+{"ts":"2026-09-22T11:59:29.950Z","level":"error","msg":"Not found","meta":{"code":"not_found","status":404,"path":"/.well-known/appspecific/com.chrome.devtools.json","method":"GET"}}
+{"ts":"2026-09-22T12:27:00.933Z","level":"error","msg":"Not found","meta":{"code":"not_found","status":404,"path":"/favicon.ico","method":"GET"}}
+{"ts":"2026-09-22T12:47:44.577Z","level":"error","msg":"Not found","meta":{"code":"not_found","status":404,"path":"/js/contextMenu.js","method":"GET","userId":"usr_26436f15ecd5ed1171"}}
+{"ts":"2026-09-22T12:47:58.782Z","level":"error","msg":"Not found","meta":{"code":"not_found","status":404,"path":"/js/contextMenu.js","method":"GET","userId":"usr_26436f15ecd5ed1171"}}
+{"ts":"2026-09-22T12:49:13.291Z","level":"error","msg":"Not found","meta":{"code":"not_found","status":404,"path":"/.well-known/appspecific/com.chrome.devtools.json","method":"GET","userId":"usr_26436f15ecd5ed1171"}}
+{"ts":"2026-09-22T12:49:19.112Z","level":"error","msg":"Not found","meta":{"code":"not_found","status":404,"path":"/js/contextMenu.js","method":"GET","userId":"usr_26436f15ecd5ed1171"}}
+{"ts":"2026-09-22T12:49:19.133Z","level":"error","msg":"Not found","meta":{"code":"not_found","status":404,"path":"/.well-known/appspecific/com.chrome.devtools.json","method":"GET","userId":"usr_26436f15ecd5ed1171"}}
+{"ts":"2026-09-22T12:50:20.297Z","level":"error","msg":"Not found","meta":{"code":"not_found","status":404,"path":"/.well-known/appspecific/com.chrome.devtools.json","method":"GET","userId":"usr_26436f15ecd5ed1171"}}
+{"ts":"2026-09-23T10:39:36.474Z","level":"error","msg":"Not found","meta":{"code":"not_found","status":404,"path":"/favicon.ico","method":"GET","userId":"usr_26436f15ecd5ed1171"}}
+{"ts":"2026-09-23T10:40:27.741Z","level":"error","msg":"unhandledRejection","meta":{"message":"Error: Server already running"}}
+{"ts":"2026-09-23T10:40:28.564Z","level":"error","msg":"unhandledRejection","meta":{"message":"Error: Server already running"}}
+{"ts":"2026-09-23T10:40:28.759Z","level":"error","msg":"unhandledRejection","meta":{"message":"Error: Server already running"}}
+{"ts":"2026-09-23T11:18:42.457Z","level":"error","msg":"Not found","meta":{"code":"not_found","status":404,"path":"/.well-known/appspecific/com.chrome.devtools.json","method":"GET","userId":"usr_26436f15ecd5ed1171"}}
+{"ts":"2026-09-23T14:48:53.916Z","level":"error","msg":"Not found","meta":{"code":"not_found","status":404,"path":"/.well-known/appspecific/com.chrome.devtools.json","method":"GET","userId":"usr_26436f15ecd5ed1171"}}
+{"ts":"2026-09-23T14:48:53.962Z","level":"error","msg":"Not found","meta":{"code":"not_found","status":404,"path":"/vendor/xterm/xterm.js.map","method":"GET","userId":"usr_26436f15ecd5ed1171"}}
+{"ts":"2026-09-23T14:48:53.964Z","level":"error","msg":"Not found","meta":{"code":"not_found","status":404,"path":"/vendor/xterm/addon-fit.js.map","method":"GET","userId":"usr_26436f15ecd5ed1171"}}
+{"ts":"2026-09-23T15:25:31.376Z","level":"error","msg":"Not found","meta":{"code":"not_found","status":404,"path":"/favicon.ico","method":"GET","userId":"usr_26436f15ecd5ed1171"}}
+{"ts":"2026-09-23T15:35:15.085Z","level":"error","msg":"Not found","meta":{"code":"not_found","status":404,"path":"/.well-known/appspecific/com.chrome.devtools.json","method":"GET","userId":"usr_26436f15ecd5ed1171"}}
+{"ts":"2026-09-23T15:35:17.721Z","level":"error","msg":"Not found","meta":{"code":"not_found","status":404,"path":"/.well-known/appspecific/com.chrome.devtools.json","method":"GET","userId":"usr_26436f15ecd5ed1171"}}
+{"ts":"2026-09-23T15:35:24.892Z","level":"error","msg":"Not found","meta":{"code":"not_found","status":404,"path":"/.well-known/appspecific/com.chrome.devtools.json","method":"GET","userId":"usr_26436f15ecd5ed1171"}}
+{"ts":"2026-09-23T15:35:27.897Z","level":"error","msg":"Not found","meta":{"code":"not_found","status":404,"path":"/.well-known/appspecific/com.chrome.devtools.json","method":"GET","userId":"usr_26436f15ecd5ed1171"}}
+{"ts":"2026-09-23T15:35:30.472Z","level":"error","msg":"Not found","meta":{"code":"not_found","status":404,"path":"/.well-known/appspecific/com.chrome.devtools.json","method":"GET","userId":"usr_26436f15ecd5ed1171"}}
+{"ts":"2026-09-23T15:35:30.584Z","level":"error","msg":"Not found","meta":{"code":"not_found","status":404,"path":"/vendor/xterm/xterm.js.map","method":"GET","userId":"usr_26436f15ecd5ed1171"}}
+{"ts":"2026-09-23T15:35:30.601Z","level":"error","msg":"Not found","meta":{"code":"not_found","status":404,"path":"/vendor/xterm/addon-fit.js.map","method":"GET","userId":"usr_26436f15ecd5ed1171"}}

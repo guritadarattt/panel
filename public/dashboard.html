@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Gurita Panel — Dashboard</title>
+<link rel="stylesheet" href="/css/style.css" />
+<link rel="stylesheet" href="/api/themes/active.css" />
+</head>
+<body>
+<main class="main">
+  <div class="topbar"><h1>Dashboard</h1></div>
+  <div class="cards" id="stats"></div>
+  <div class="card">
+    <div class="row" style="margin-bottom:10px;">
+      <h2 style="margin:0; flex:1;">My Servers</h2>
+      <button id="createBtn" class="primary">+ New Server</button>
+    </div>
+    <div id="serversTable"></div>
+  </div>
+</main>
+<script src="/js/media.js" defer></script>
+<script type="module" src="/js/dashboard.js"></script>
+</body>
+</html>

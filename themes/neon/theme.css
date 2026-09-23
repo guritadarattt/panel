@@ -1,0 +1,29 @@
+:root {
+  --bg: #0a0a1a;
+  --bg-2: #12122a;
+  --bg-3: #1a1a3a;
+  --border: #2a2a5a;
+  --text: #e0e0ff;
+  --muted: #8080c0;
+  --accent: #ff2bd6;
+  --accent-2: #00e5ff;
+  --green: #39ff14;
+  --yellow: #ffe600;
+  --red: #ff3860;
+}
+body {
+  background: radial-gradient(ellipse at top, #12122a 0%, #0a0a1a 60%);
+}
+.sidebar .brand {
+  color: #ff2bd6;
+  text-shadow: 0 0 12px rgba(255, 43, 214, 0.6);
+}
+button.primary {
+  background: linear-gradient(135deg, #ff2bd6, #00e5ff);
+  border: none;
+  color: #0a0a1a;
+  font-weight: 700;
+}
+.card {
+  box-shadow: 0 0 20px rgba(0, 229, 255, 0.05);
+}

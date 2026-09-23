@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Gurita Panel — Server</title>
+<link rel="stylesheet" href="/css/style.css" />
+<link rel="stylesheet" href="/vendor/xterm/xterm.css" />
+<link rel="stylesheet" href="/api/themes/active.css" />
+</head>
+<body>
+<main class="main">
+  <div class="topbar">
+    <h1 id="title">Server</h1>
+    <div class="row">
+      <button id="startBtn" class="primary">Start</button>
+      <button id="stopBtn">Stop</button>
+      <button id="restartBtn">Restart</button>
+      <button id="killBtn" class="danger">Kill</button>
+    </div>
+  </div>
+  <div class="tabs">
+    <button data-tab="console" class="active">Console</button>
+    <button data-tab="shell">Shell</button>
+    <button data-tab="files">Files</button>
+    <button data-tab="resources">Resources</button>
+    <button data-tab="allocations">Allocations</button>
+    <button data-tab="settings">Settings</button>
+  </div>
+  <div id="tab-content"></div>
+</main>
+<script src="/vendor/xterm/xterm.js"></script>
+<script src="/vendor/xterm/addon-fit.js"></script>
+<script src="/js/media.js" defer></script>
+<script type="module" src="/js/server.js"></script>
+</body>
+</html>

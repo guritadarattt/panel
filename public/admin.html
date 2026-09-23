@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Gurita Panel — Admin</title>
+<link rel="stylesheet" href="/css/style.css" />
+<link rel="stylesheet" href="/api/themes/active.css" />
+</head>
+<body>
+<main class="main">
+  <div class="topbar">
+    <h1 id="title">Admin</h1>
+  </div>
+
+   <div class="tabs">
+    <button data-tab="settings" class="active">Panel Settings</button>
+    <button data-tab="appearance">Appearance</button>
+    <button data-tab="theme">Theme</button>
+    <button data-tab="users">User Management</button>
+    <button data-tab="servers">Server Management</button>
+    <button data-tab="audit">Audit Log</button>
+  </div>
+
+  <div id="tab-content"></div>
+</main>
+<script src="/js/media.js" defer></script>
+<script type="module" src="/js/admin.js"></script>
+</body>
+</html>

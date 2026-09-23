@@ -1,0 +1,8 @@
+{
+  "name": "default",
+  "displayName": "Gurita Default",
+  "version": "1.0.0",
+  "author": "Gurita Darat",
+  "description": "Tema default Gurita Panel dengan aksen ungu gelap.",
+  "entry": "theme.css"
+}

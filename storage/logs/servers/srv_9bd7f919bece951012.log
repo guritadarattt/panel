@@ -1,0 +1,161 @@
+{"ts":1790082898996,"stream":"stderr","line":"node:internal/modules/cjs/loader:1568"}
+{"ts":1790082898997,"stream":"stderr","line":"  throw err;"}
+{"ts":1790082898997,"stream":"stderr","line":"  ^"}
+{"ts":1790082898997,"stream":"stderr","line":"Error: Cannot find module 'qrcode-terminal'"}
+{"ts":1790082898997,"stream":"stderr","line":"Require stack:"}
+{"ts":1790082898998,"stream":"stderr","line":"- /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/index.js"}
+{"ts":1790082898998,"stream":"stderr","line":"    at Module._resolveFilename (node:internal/modules/cjs/loader:1564:15)"}
+{"ts":1790082898999,"stream":"stderr","line":"    at wrapResolveFilename (node:internal/modules/cjs/loader:1118:27)"}
+{"ts":1790082898999,"stream":"stderr","line":"    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1142:10)"}
+{"ts":1790082898999,"stream":"stderr","line":"    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1169:12)"}
+{"ts":1790082898999,"stream":"stderr","line":"    at Module._load (node:internal/modules/cjs/loader:1341:5)"}
+{"ts":1790082899000,"stream":"stderr","line":"    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)"}
+{"ts":1790082899000,"stream":"stderr","line":"    at Module.require (node:internal/modules/cjs/loader:1674:12)"}
+{"ts":1790082899000,"stream":"stderr","line":"    at require (node:internal/modules/helpers:157:16)"}
+{"ts":1790082899000,"stream":"stderr","line":"    at Object.<anonymous> (/home/gurita/panel/storage/servers/srv_9bd7f919bece951012/index.js:2:24)"}
+{"ts":1790082899000,"stream":"stderr","line":"    at Module._compile (node:internal/modules/cjs/loader:1929:14) {"}
+{"ts":1790082899000,"stream":"stderr","line":"  code: 'MODULE_NOT_FOUND',"}
+{"ts":1790082899001,"stream":"stderr","line":"  requireStack: ["}
+{"ts":1790082899001,"stream":"stderr","line":"    '/home/gurita/panel/storage/servers/srv_9bd7f919bece951012/index.js'"}
+{"ts":1790082899001,"stream":"stderr","line":"  ]"}
+{"ts":1790082899001,"stream":"stderr","line":"}"}
+{"ts":1790082899001,"stream":"stderr","line":"Node.js v24.21.0"}
+{"ts":1790082899004,"stream":"stderr","line":"[process exited code=1 signal=null]"}
+{"ts":1790160023616,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/add-member.js"}
+{"ts":1790160023617,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/addplugins.js"}
+{"ts":1790160023619,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/am-prem.js"}
+{"ts":1790160023864,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/autorespon/ai.js"}
+{"ts":1790160023866,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/autorespon/sendconfess.js"}
+{"ts":1790160023867,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/bacafile.js"}
+{"ts":1790160023868,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/bacaplugins.js"}
+{"ts":1790160023870,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/bash.js"}
+{"ts":1790160023871,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/close-group.js"}
+{"ts":1790160023873,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/confess.js"}
+{"ts":1790160023875,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/crm.js"}
+{"ts":1790160023878,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/dare.js"}
+{"ts":1790160023879,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/dcache.js"}
+{"ts":1790160024697,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/delete.js"}
+{"ts":1790160024699,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/delplugins.js"}
+{"ts":1790160024700,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/demote.js"}
+{"ts":1790160024701,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/dsesi.js"}
+{"ts":1790160024703,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/editplugins.js"}
+{"ts":1790160025710,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/enc.js"}
+{"ts":1790160025726,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/fbdl.js"}
+{"ts":1790160025728,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/ffcheck.js"}
+{"ts":1790160025729,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/help.js"}
+{"ts":1790160025731,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/hidetag.js"}
+{"ts":1790160025733,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/igdl.js"}
+{"ts":1790160025735,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/intro.js"}
+{"ts":1790160025737,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/iqc.js"}
+{"ts":1790160025797,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/jebehmenu.js"}
+{"ts":1790160025799,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/jpmsw.js"}
+{"ts":1790160025801,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/kenongc.js"}
+{"ts":1790160025802,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/kick-member.js"}
+{"ts":1790160025804,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/listplugins.js"}
+{"ts":1790160025805,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/menu.js"}
+{"ts":1790160025806,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/open-group.js"}
+{"ts":1790160025814,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/ping.js"}
+{"ts":1790160025815,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/promote.js"}
+{"ts":1790160025816,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/restart.js"}
+{"ts":1790160025818,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/rrm.js"}
+{"ts":1790160025819,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/run.js"}
+{"ts":1790160025820,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/rvo.js"}
+{"ts":1790160025821,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/sticker.js"}
+{"ts":1790160025822,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/swgc.js"}
+{"ts":1790160025823,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/tagall.js"}
+{"ts":1790160025824,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/template.js"}
+{"ts":1790160025826,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/toaud.js"}
+{"ts":1790160025833,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/tourl.js"}
+{"ts":1790160025835,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/truth.js"}
+{"ts":1790160025836,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/ttdl.js"}
+{"ts":1790160025837,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/xnxx-download.js"}
+{"ts":1790160025838,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/xnxxsearch.js"}
+{"ts":1790160025839,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/youtube-search.js"}
+{"ts":1790160025841,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/ytdl.js"}
+{"ts":1790160025843,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/ytmp3v2.js"}
+{"ts":1790160027796,"stream":"stdout","line":"▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄"}
+{"ts":1790160027797,"stream":"stdout","line":"█ ▄▄▄▄▄ █ ▄█▄▀  ▄ ▄██  █▀ ▄▀ ██ ▄ ▄█ ▄▀▄▄▄ ▄█▄▄▀▀█▀█  █ ▄▄▄▄▄ █"}
+{"ts":1790160027797,"stream":"stdout","line":"█ █   █ █ ▀▀██▀█▀▀▄█▀ █  ▀▀█▀ ███▀▄ ▄▄▄▄  ▄▄ ▄▄ ▄▄▀ ▄ █ █   █ █"}
+{"ts":1790160027797,"stream":"stdout","line":"█ █▄▄▄█ █▀ ▄ █▀▀▄▀█   ▄▄ ▄▄█▄ ▄▄▄ ▀█▄▀█ ▄▀ ▄█▀ ▀▄▀  ▄██ █▄▄▄█ █"}
+{"ts":1790160027797,"stream":"stdout","line":"█▄▄▄▄▄▄▄█▄█▄▀▄█▄█ █▄█ █▄▀▄█ ▀ █▄█ █ █ █ ▀▄█▄█ ▀ █▄▀▄▀ █▄▄▄▄▄▄▄█"}
+{"ts":1790160027797,"stream":"stdout","line":"█▄ █▀▄ ▄▀▀██▄▄▄▄ █▀ ▄▄▄▀  ▀▀▀▄ ▄▄  █▀▄   █  █▄ █  ▀  ▄█▀▄█▄▄ ▄█"}
+{"ts":1790160027797,"stream":"stdout","line":"█▄▀ ▀▄▀▄█ █▀█▀▀██▀ ▀▀ ▀ ▄█▀█▀ █▄▀█ ▀▀█   ▀▄▄█▄▄█▄▄█▄▀█▄▄▄ █ ▀██"}
+{"ts":1790160027798,"stream":"stdout","line":"█ ▀█▄  ▄▀▄ ▄█ ▀  █▄ █  █  ▄▄▄█▀▄ ▄▀▄▄█▄█ █▀ █ ▄█  ▄  ▄ ▀▀   ███"}
+{"ts":1790160027798,"stream":"stdout","line":"█▀█▄  ▀▄    ▀▀▀█▄▀▀█▀▀▀█ ▀ ▀█ ▄ ▄█▄▄▀ ▀█ █ ▄▄█▄▀ ▀▀█▄ ▄█ ▀▄ ▀▀█"}
+{"ts":1790160027798,"stream":"stdout","line":"█▄▄▀▀▄█▄▄▀▀▀▀▀▄ ▄█▄ █ ▄▄▀▄█▄▄▀▀ ▄█▄█  █  █ ▀█  ▄  █▀▀▄ ▀█  ▄█▀█"}
+{"ts":1790160027798,"stream":"stdout","line":"█▀▄▀ ▀ ▄ █▀█ ▄  ▀ ▀ █▄█ ▄ ▄██▀██████▀▄ ▄▄█ ██ ▀█ ▄▀██▄▀█▀▄█ ███"}
+{"ts":1790160027798,"stream":"stdout","line":"█▄ █▀█▄▄ █▀▀█  ▀▀█ ▄▄▀▄▀▄▀█  ▄█ ▄█▀ ▄▄▀▀██  ▀▄██▄ ▄▀ █ ▀▀ ▀█▀▄█"}
+{"ts":1790160027798,"stream":"stdout","line":"█▀█    ▄ ▄▀█  ▄ ▄▀▀ ▄█ ▀▀▄▀█▄ ▄▄█▀ ▄█▀ ▄▀██▄█ ███▀▀ █ █ █ ▄  ██"}
+{"ts":1790160027799,"stream":"stdout","line":"█▀▀████▄█▀  █▀▄  ▄▄▀▀ ▄▀▀ ▄ ▄█▀▄▀ ▀█▀▄█  █▀ ▀▄ ██▄█▀▀▄ ▀ ▄▄ ███"}
+{"ts":1790160027799,"stream":"stdout","line":"█▄▀▄▄▄▄▄█▀▀  █▄▀ ▀ ▀▄█  ▀ █▀▄▄▄▄▄ █▀▄█▄█▄ ██▄▄ ▄▀▀ ▄█▀▀▄█ ▄▀███"}
+{"ts":1790160027799,"stream":"stdout","line":"█▀▄█▄ ▄▄▄   ▄▄██ █▄▄ ▀ ▀▀ ▄▄▀ ▄▄▄  ▄▀ ▀  █▄ █▄ ▄▄ ▄▀▄ ▄▄▄ ▀▄▄ █"}
+{"ts":1790160027799,"stream":"stdout","line":"█▀▀█▄ █▄█ ▄▄ ▀██▀█ ▄ ▀▄ █▄▀▄█ █▄█    ▀▄█ ▄▀▄ ▀▀   ▀ ▀ █▄█ ▄ ▀██"}
+{"ts":1790160027799,"stream":"stdout","line":"█▄▄▀ ▄ ▄▄ ▄▀ █▀ ▀▀▄ ▄ ▀█▄ ▀ ▄ ▄ ▄▄▀█ ▄▀▀▄▀ ▀▀ ▄▄▄ ▄▀▀▄  ▄ █  ▄█"}
+{"ts":1790160027800,"stream":"stdout","line":"█  ██▄▄▄▀▀▀█ █▄▄▄█▀▀▄▄▄█▀█ ▀▄ ▄█▄▄ ▀▄▀█▄▀▄▀▀██ ▀▀█▀▄▄▄▀█ ██  ▀█"}
+{"ts":1790160027800,"stream":"stdout","line":"██ ▄ ▄▄▄▄█ █▀▄▄ ▀▄▀▄▄▀▀▀▀ ▀▄▀▀▀ ▄ ▄█▄▄▄ ▀█  █ ▀▄▄▄▄ ▀▀█▀▄ ▀▄█▀█"}
+{"ts":1790160027800,"stream":"stdout","line":"██ ▄▀█▄▄   ▀  █▄▄▄▄██ ▀▄█▄▄ ▄█▀  █▀   █▀▀██ ▄ ▀█▄▀█▄▀▄██ ▄▄ ▀▀█"}
+{"ts":1790160027800,"stream":"stdout","line":"█▀█▄ ██▄  █▀▄█▄  ▄▀ ▄▄▀▀▀▀▀▀█▀▄  ▄ ▄▄  ▀ ▀ ▀█ ▄█▀▄█▀█▄▀▄█▀▄▄  █"}
+{"ts":1790160027800,"stream":"stdout","line":"█▄▄█▄▄█▄ ▀ █▄▀▀██▄ ▀▀ █ ▄▀▄▀ ██▄ █ █ █  █▄ ▄█ █▀▄ █ ▀█▄▀▄▀█▀▄██"}
+{"ts":1790160027801,"stream":"stdout","line":"██▄▄█ ▀▄█▄ █▄ ▀▀█▄  ▀▀▄█▀▀▄▄█▄▀▄  ▀▄▄█▄██▀▀ ▀▄ ██▄█ ▀  ▄▀▀█ █ █"}
+{"ts":1790160027801,"stream":"stdout","line":"███▄▄▀█▄ ▄███▀ ▄▀██▀ ▄▀█▄▄ ▄ ▀██▄█ █▀▄██▄▄▄▄ ▀██▄▀▀█▄▄▀▀▄▄█ ███"}
+{"ts":1790160027801,"stream":"stdout","line":"█ ▀█ ▄█▄█▀▀█▄▄ █▄█▄ ▄ ▄▄▀▄▄▄▀▄▄▄▀ ▀▄▄▄▀▀ █     ▄▄ ▀▀█▀▄▄█▀▀█ ▀█"}
+{"ts":1790160027801,"stream":"stdout","line":"█▀▀ ▄ ▄▄█▀▀▀██  ▀ ▄▀▄▀ ▄▄ ▄▄ █▀ ▄▄██▄█▄ █▄▄█▄  ▀█▀█ ▄ ▀██ ▄▀▀██"}
+{"ts":1790160027801,"stream":"stdout","line":"█▄▄▄▄██▄▄▀▄▀█  ▀▀█ ▄█▀▄▀  █▄  ▄▄▄ ▀  ▄▀ ██▄▀▀▄▀█▄▄▄▀▀ ▄▄▄ █▄█▄█"}
+{"ts":1790160027802,"stream":"stdout","line":"█ ▄▄▄▄▄ █▀ ▀▄  ▀▀▀▀   ▄▀▀█▀██ █▄█ ▄  ▄▀▄▄ █▄▄▀██ ▀ █  █▄█ ▄ ███"}
+{"ts":1790160027802,"stream":"stdout","line":"█ █   █ █▄ ▀▀▀ ▄▀▄▄▀▀  ▀█▀▄ █  ▄ ▄ ▄▄▄█▀ █▀ ▀ ▄█▀▄█ ▀▄▄▄▄▄▄ █ █"}
+{"ts":1790160027802,"stream":"stdout","line":"█ █▄▄▄█ █▀▀ █   ▀▄██▄██▄█▀█▀▀ ▄█▀███▄█▄█▀  ▄▄  ▀ ▄  █ ▄▄█▀▄▀ ██"}
+{"ts":1790160027802,"stream":"stdout","line":"█▄▄▄▄▄▄▄█▄▄████▄██▄▄██▄█▄▄█▄▄█▄▄█▄▄▄█▄█▄▄████▄▄▄▄▄█▄██▄▄█▄▄▄▄▄█"}
+{"ts":1790160029737,"stream":"stderr","line":"[process exited code=null signal=SIGTERM]"}
+{"ts":1790160038355,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/add-member.js"}
+{"ts":1790160038357,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/addplugins.js"}
+{"ts":1790160038358,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/am-prem.js"}
+{"ts":1790160038504,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/autorespon/ai.js"}
+{"ts":1790160038505,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/autorespon/sendconfess.js"}
+{"ts":1790160038505,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/bacafile.js"}
+{"ts":1790160038506,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/bacaplugins.js"}
+{"ts":1790160038507,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/bash.js"}
+{"ts":1790160038507,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/close-group.js"}
+{"ts":1790160038508,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/confess.js"}
+{"ts":1790160038509,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/crm.js"}
+{"ts":1790160038512,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/dare.js"}
+{"ts":1790160038512,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/dcache.js"}
+{"ts":1790160038973,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/delete.js"}
+{"ts":1790160038973,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/delplugins.js"}
+{"ts":1790160038974,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/demote.js"}
+{"ts":1790160038975,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/dsesi.js"}
+{"ts":1790160038975,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/editplugins.js"}
+{"ts":1790160039508,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/enc.js"}
+{"ts":1790160039513,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/fbdl.js"}
+{"ts":1790160039514,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/ffcheck.js"}
+{"ts":1790160039514,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/help.js"}
+{"ts":1790160039515,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/hidetag.js"}
+{"ts":1790160039515,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/igdl.js"}
+{"ts":1790160039516,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/intro.js"}
+{"ts":1790160039516,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/iqc.js"}
+{"ts":1790160039545,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/jebehmenu.js"}
+{"ts":1790160039546,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/jpmsw.js"}
+{"ts":1790160039546,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/kenongc.js"}
+{"ts":1790160039547,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/kick-member.js"}
+{"ts":1790160039548,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/listplugins.js"}
+{"ts":1790160039548,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/menu.js"}
+{"ts":1790160039549,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/open-group.js"}
+{"ts":1790160039552,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/ping.js"}
+{"ts":1790160039553,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/promote.js"}
+{"ts":1790160039553,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/restart.js"}
+{"ts":1790160039554,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/rrm.js"}
+{"ts":1790160039555,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/run.js"}
+{"ts":1790160039555,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/rvo.js"}
+{"ts":1790160039556,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/sticker.js"}
+{"ts":1790160039557,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/swgc.js"}
+{"ts":1790160039557,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/tagall.js"}
+{"ts":1790160039558,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/template.js"}
+{"ts":1790160039560,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/toaud.js"}
+{"ts":1790160039563,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/tourl.js"}
+{"ts":1790160039564,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/truth.js"}
+{"ts":1790160039564,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/ttdl.js"}
+{"ts":1790160039565,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/xnxx-download.js"}
+{"ts":1790160039565,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/xnxxsearch.js"}
+{"ts":1790160039566,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/youtube-search.js"}
+{"ts":1790160039566,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/ytdl.js"}
+{"ts":1790160039567,"stream":"stdout","line":"✅ Loaded: /home/gurita/panel/storage/servers/srv_9bd7f919bece951012/plugins/ytmp3v2.js"}
+{"ts":1790160046176,"stream":"stderr","line":"[process exited code=0 signal=null]"}
