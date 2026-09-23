@@ -1,18 +1,2 @@
 [
-  {
-    "id": "usr_26436f15ecd5ed1171",
-    "username": "gurita",
-    "email": "gurita@a.id",
-    "passwordHash": "$2b$12$nryuKKBQW4fH1QiS2RSQ8OLOupn1dXoycUKE042Kis6pSDDgDpioy",
-    "role": "admin",
-    "status": "active",
-    "resourceLimits": {
-      "maxServers": 3,
-      "maxRam": 2048,
-      "maxDisk": 5120,
-      "maxCpu": 200
-    },
-    "createdAt": "2026-09-22T11:52:30.418Z",
-    "updatedAt": "2026-09-22T11:52:30.418Z"
-  }
 ]
