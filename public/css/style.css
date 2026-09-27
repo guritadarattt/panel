@@ -17,6 +17,7 @@
 html, body { margin: 0; padding: 0; height: 100%; }
 body {
   background: var(--bg);
+  background-image: url(/api/media/background);
   color: var(--text);
   font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   font-size: 14px;
