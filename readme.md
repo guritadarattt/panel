@@ -441,7 +441,8 @@ Cek:
 
 ```bash
 ls /sys/fs/cgroup/cgroup.controllers
-```Kalau file tidak ada → kernel tidak support cgroups v2. Panel akan beri warning, limit tetap dicatat tapi tidak di-enforce.
+```
+Kalau file tidak ada → kernel tidak support cgroups v2. Panel akan beri warning, limit tetap dicatat tapi tidak di-enforce.
 
 🗺️ Roadmap
 ☑ Auth + session + CSRF
