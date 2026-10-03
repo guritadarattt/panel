@@ -22,18 +22,7 @@ node src/create-admin
 npm start
 ```
 🐙 Gurita Panel
-<div align="center">
-A modern, lightweight VPS management panel — no Docker, no SQL, no bloat.
 
-Inspired by Pterodactyl, rebuilt from scratch on pure Node.js.
-
-https://img.shields.io/badge/Node.js-%E2%89%A518.17-339933?logo=node.js&logoColor=white
-https://img.shields.io/badge/License-MIT-blue.svg
-https://img.shields.io/badge/Platform-Linux-FCC624?logo=linux&logoColor=black
-https://img.shields.io/badge/Docker-not%20required-2496ED?logo=docker&logoColor=white
-https://img.shields.io/badge/Database-JSON-000000?logo=json&logoColor=white
-
-</div>
 ✨ Kenapa Gurita Panel?
 Fitur	Deskripsi
 🚀	Zero dependencies runtime	Tidak butuh Docker, MySQL, Redis, atau message broker
