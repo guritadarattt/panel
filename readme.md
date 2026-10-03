@@ -17,7 +17,10 @@
 ```bash
 git clone https://github.com/guritadarattt/panel gurita-panel
 cd gurita-panel
-sudo GURITA_SRC=$PWD bash scripts/install.sh
+npm i
+node src/create-admin
+npm start
+```
 🐙 Gurita Panel
 <div align="center">
 A modern, lightweight VPS management panel — no Docker, no SQL, no bloat.
@@ -44,7 +47,7 @@ Fitur	Deskripsi
 🎯	Role-based access	Admin, Reseller, User — granular permission di backend
 🇮🇩	Made in Indonesia	Dengan ❤️ dari Gurita Darat
 🏗️ Arsitektur
-text
+```text
 ┌──────────────────────────────────────────────────────────────┐
 │                       Browser (User)                         │
 │  ┌─────────────┐  ┌──────────────┐  ┌──────────────────┐   │
@@ -81,6 +84,7 @@ text
                     │  spawn: node/python │
                     │  /bin/bash (PTY)    │
                     └─────────────────────┘
+```
 🎯 Fitur Inti
 👑 Admin Panel
 User Management — tambah, ubah role, suspend/ban, hapus user
@@ -126,10 +130,11 @@ Root atau sudo	—	✅ Wajib untuk install
 Build tools	build-essential (untuk node-pty)	⚠️ Opsional
 cgroups v2	Kernel 4.15+	⚠️ Opsional
 One-liner install
-bash
+```bash
 git clone https://github.com/guritadarattt/panel gurita-panel
 cd gurita-panel
 sudo GURITA_SRC=$PWD bash scripts/install.sh
+```
 Installer akan:
 
 ✅ Cek OS dan versi Node.js
@@ -145,18 +150,20 @@ Installer akan:
 ✅ Buat admin pertama (password tidak akan di-echo)
 
 Jalankan
-bash
+```bash
 cd /opt/gurita-panel
 node server.js
+```
 Buka browser: http://<ip-vps>:3000
 
 Login pakai akun admin yang dibuat saat install.
 
 📖 Cara Pakai
 1️⃣ Login pertama
-bash
+```bash
 # Kalau belum buat admin saat install:
 node scripts/create-admin.js
+```
 2️⃣ Buat user
 Admin → User Management → + New User
 
@@ -182,17 +189,18 @@ User login → buka server → tab Files → Upload
 
 Atau via shell:
 
-bash
+```bash
 # Di tab Shell server
-git clone https://github.com/user/repo.git .
+git clone https://github.com/guritadarattt/panel/
 npm install
+```
 5️⃣ Start server
 Klik Start di dashboard atau di halaman server. Console akan menampilkan output real-time.
 
 6️⃣ Akses port
 Port yang di-assign otomatis tersedia sebagai env PORT:
 
-javascript
+```javascript
 // index.js
 app.listen(process.env.PORT, () => {
   console.log('Listening on ' + process.env.PORT);
@@ -221,6 +229,7 @@ LOGIN_RATE_MAX_ATTEMPTS=8
 
 ENABLE_CGROUPS=true
 CGROUP_ROOT=/sys/fs/cgroup/gurita-panel
+```
 Field penting
 Field	Deskripsi
 SESSION_SECRET	Wajib di production. Generate dengan openssl rand -hex 32
@@ -252,7 +261,7 @@ Untuk multi-tenant asing, jalankan tiap server sebagai Linux user terpisah + bub
 
 🌐 Deployment Production
 Nginx reverse proxy
-nginx
+```nginx
 server {
     listen 80;
     server_name panel.example.com;
@@ -269,15 +278,18 @@ server {
         proxy_read_timeout 86400;
     }
 }
+```
 Lalu di .env:
 
-env
+```env
 TRUST_PROXY=true
+```
 HTTPS dengan Certbot
-bash
+```bash
 sudo apt install certbot python3-certbot-nginx
 sudo certbot --nginx -d panel.example.com
 Systemd service
+```
 ini
 # /etc/systemd/system/gurita-panel.service
 [Unit]
@@ -295,22 +307,24 @@ EnvironmentFile=/opt/gurita-panel/.env
 
 [Install]
 WantedBy=multi-user.target
-bash
+```bash
 sudo systemctl daemon-reload
 sudo systemctl enable --now gurita-panel
 sudo systemctl status gurita-panel
+```
 🎨 Kustomisasi Panel
 Buat tema CSS
 Struktur folder:
 
-text
+```text
 themes/my-theme/
 ├── package.json
 ├── theme.css
 └── preview.png (opsional)
+```
 package.json:
 
-json
+```json
 {
   "name": "my-theme",
   "displayName": "My Beautiful Theme",
@@ -319,9 +333,10 @@ json
   "description": "Deskripsi tema",
   "entry": "theme.css"
 }
+```
 theme.css:
 
-css
+```css
 :root {
   --bg: #0a0a1a;
   --bg-2: #12122a;
@@ -335,6 +350,7 @@ css
   --yellow: #ffe600;
   --red: #ff3860;
 }
+```
 Upload via admin → Theme → 📦 Upload .zip atau 🐙 Import dari GitHub.
 
 Variabel CSS
@@ -387,8 +403,9 @@ POST	/themes/upload	Upload tema
 POST	/themes/import-github	Import dari GitHub
 GET	/audit	Audit log
 🧪 Testing
-bash
+```bash
 npm test
+```
 Test meliputi:
 
 Password hashing & verification
@@ -403,35 +420,39 @@ Session lifecycle
 
 🐛 Troubleshooting
 Cannot find module 'node-pty'
-bash
+```bash
 sudo apt install -y build-essential python3
 cd /opt/gurita-panel && npm install node-pty
+```
 SESSION_SECRET must be set
-bash
+```bash
 cd /opt/gurita-panel
 SECRET=$(openssl rand -hex 32)
 sed -i "s|^SESSION_SECRET=.*|SESSION_SECRET=$SECRET|" .env
+```
 Login gagal, tombol tidak bereaksi
 Buka DevTools → Console. Kalau ada error CSP:
 
-text
+```text
 Refused to execute inline script
+```
 Berarti frontend pakai <script> inline. Semua script harus external (.js file).
 
 Shell tidak bisa input (Ctrl+C, arrow key, dll.)
 node-pty belum terinstall dengan benar. Cek:
 
-bash
+```bash
 node -e "require('node-pty'); console.log('OK')"
+```
 Server tidak mau start: Executable "xxx" is not allowed
 Runtime di luar allowlist. Yang didukung: node, python3, python, java, npm, pnpm, yarn, bun, deno, ruby, php.
 
 cgroups tidak aktif
 Cek:
 
-bash
+```bash
 ls /sys/fs/cgroup/cgroup.controllers
-Kalau file tidak ada → kernel tidak support cgroups v2. Panel akan beri warning, limit tetap dicatat tapi tidak di-enforce.
+```Kalau file tidak ada → kernel tidak support cgroups v2. Panel akan beri warning, limit tetap dicatat tapi tidak di-enforce.
 
 🗺️ Roadmap
 ☑ Auth + session + CSRF
